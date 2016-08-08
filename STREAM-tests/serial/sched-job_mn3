@@ -1,0 +1,11 @@
+#!/bin/bash
+#BSUB -n 1
+#BSUB -R "span[ptile=16]"
+#BSUB -oo OUTPUT/ompss-ee_%J.out
+#BSUB -eo OUTPUT/ompss-ee_%J.err
+#BSUB -x # Exclusive use
+#BSUB -J ompss-ee
+#BSUB -W 00:15
+
+./stream_t.exe
+./stream_omp

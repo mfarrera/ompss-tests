@@ -1,0 +1,2 @@
+Function    Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:          13639.8     0.236852     0.236163     0.239271        9093.2     0.666667 

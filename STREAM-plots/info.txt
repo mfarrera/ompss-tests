@@ -1,0 +1,28 @@
+Marenostrum login nodes:
+16 cores with 2 GB per core (32GB x node)
+cache size 20MB
+
+Array size = 134217728 elements 1024MB, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+-------------------------------------------------------------
+Number of Threads = 16
+
+Test is run on 1 node shared mem.
+
+
+Block Sizes tested in MB [128.0, 64.0, 32.0, 16.0, 8.0, 4.0, 2.0, 1.0, 0.5]
+
+Array size 128MB each (3 arrays)
+0.5 MB blocks -> 2048 fine grain tasks for 16 threads
+as block size increases throughput improves up to 
+8 MB blocks ->  128 tasks for 16 threads = 8 tasks per thread of 8MB x 3 memory = 24MB which almost fits in the cache
+16 MB blocks -> Memory used by a task does not fit in the cache anymore
+64MB block -> this is peak performance because it is an embarassingly parallel problem and this 
+              corresponds to 16 tasks in total, 1 per thread (equivalent to openmp static)
+128MB block -> only 8 theads (half) have work to do.
+
+ 
+ 
+

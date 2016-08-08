@@ -1,0 +1,160 @@
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 8388608
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     67108864       54685.2       0.0856       0.0589       0.1205      36456.8     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.1399 seconds
+Solution Validates
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 4194304
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     33554432       45684.7       0.0910       0.0705       0.1061      30456.5     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.2303 seconds
+Solution Validates
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 2097152
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     16777216       46687.2       0.0840       0.0690       0.0867      31124.8     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.9404 seconds
+Solution Validates
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 1048576
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     8388608       47777.1       0.0753       0.0674       0.0792      31851.4     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.0888 seconds
+Solution Validates
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 524288
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     4194304       42719.1       0.0822       0.0754       0.0909      28479.4     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.6822 seconds
+Solution Validates
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 262144
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     2097152       45932.1       0.0803       0.0701       0.1146      30621.4     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.0947 seconds
+Solution Validates
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 131072
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     1048576       34667.8       0.1112       0.0929       0.1579      23111.9     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.7591 seconds
+Solution Validates
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per DOUBLE PRECISION word.
+-------------------------------------------------------------
+Array size = 134217728, Offset = 0
+Total memory required = 3072.0 MB.
+Each test is run 10 times, but only
+the *best* time for each is used.
+Block size = 65536
+-------------------------------------------------------------
+Number of Threads = 16
+-------------------------------------------------------------
+Printing one line per active thread....
+Function  BlockSize  Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:     524288       31688.8       0.1440       0.1017       0.2235      21125.9     0.666667
+-------------------------------------------------------------
+TOTAL time (including initialization) =       1.8246 seconds
+Solution Validates
+-------------------------------------------------------------

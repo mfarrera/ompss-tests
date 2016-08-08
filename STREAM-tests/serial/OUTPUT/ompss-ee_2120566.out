@@ -1,0 +1,91 @@
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 134217728 (elements), Offset = 0 (elements)
+Memory per array = 1024.0 MiB (= 1.0 GiB).
+Total memory required = 3072.0 MiB (= 3.0 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Function    Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:          13639.8     0.236852     0.236163     0.239271        9093.2     0.666667 
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 134217728 (elements), Offset = 0 (elements)
+Memory per array = 1024.0 MiB (= 1.0 GiB).
+Total memory required = 3072.0 MiB (= 3.0 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Number of Threads requested = 16
+Number of Threads counted = 16
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Function    Best Rate MB/s  Avg time     Min time     Max time    MFlop/s    Flop/Byte
+Triad:          60085.1     0.053987     0.053611     0.054934       40056.7     0.666667 
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+
+------------------------------------------------------------
+Sender: LSF System <perf@s01r1b14>
+Subject: Job 2120566: <ompss-ee> in cluster <mn3> Done
+
+Job <ompss-ee> was submitted from host <login3> by user <bsc15032> in cluster <mn3>.
+Job was executed on host(s) <s01r1b14>, in queue <sequential>, as user <bsc15032> in cluster <mn3>.
+</home/bsc15/bsc15032> was used as the home directory.
+</home/bsc15/bsc15032/STREAM-tests/serial> was used as the working directory.
+Started at Thu Aug  4 12:35:03 2016
+Results reported on Thu Aug  4 12:35:28 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -n 1
+#BSUB -R "span[ptile=16]"
+#BSUB -oo OUTPUT/ompss-ee_%J.out
+#BSUB -eo OUTPUT/ompss-ee_%J.err
+#BSUB -x # Exclusive use
+#BSUB -J ompss-ee
+#BSUB -W 00:15
+
+./stream_t.exe
+./stream_omp
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               18.15 sec.
+    Max Memory :             3110 MB
+    Average Memory :         4.00 MB
+    Total Requested Memory : 1812.00 MB
+    Delta Memory :           -1298.00 MB
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Processes :          4
+    Max Threads :            5
+    Job Energy Consumption : 0.000617 kWh
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <OUTPUT/ompss-ee_2120566.err> for stderr output of this job.
+
